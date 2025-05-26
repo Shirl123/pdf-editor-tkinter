@@ -142,9 +142,9 @@ def select_path():
         saved_path = save_pdf(editedpdf_path)
         recheck= recheck_for_Reviewed_pdffile(saved_path)
         if recheck:
-            messagebox.showinfo("Success", "Reviewed Pdf files are saved to the zip folder.")
+            messagebox.showinfo("Success", "Edited Pdf files are saved to the zip folder.")
         else:
-            messagebox.showerror("Error", "No Reviewed Pdf files found in the zip folder. Please check the folder and try again")   
+            messagebox.showerror("Error", "No Edited Pdf files found in the zip folder. Please check the folder and try again")   
         root.destroy()
     else:
         messagebox.showerror("Error", "No folder selected")
