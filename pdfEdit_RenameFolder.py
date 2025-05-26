@@ -150,7 +150,7 @@ def select_path():
         messagebox.showerror("Error", "No folder selected")
 
 root = tk.Tk()
-root.title("Edit Pdf files")
+root.title("PDF Editor")
 root.geometry("300x200")
 frame = tk.Frame()
 frame.pack(padx =30, pady=30)
